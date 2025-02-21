@@ -1,3 +1,10 @@
 body{
-    background: #BDBDBD;
+    background: black;
+    margin:auto;
+
+}
+
+.container-fluid{
+    background-color: white;
+    width: 75%;
 }
