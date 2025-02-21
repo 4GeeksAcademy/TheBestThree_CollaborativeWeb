@@ -13,22 +13,23 @@ body{
 
 .jumbotron{
     background-image: url("../img/bg.jpg");
-    background-position: 0px -200px;
+    background-position: 0px -100px;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 610px;
     padding: 10px;
 }
-.jumboRow{
-    padding-top:90px;
-    padding-bottom:200px;
-}
 
+.jumboRow{
+    margin-top:70px;
+}
 
 .jumboTitle {
     text-align: center;
     width: 100%;
     padding:5px;
+    color: #313234;
+    height: fit-content;
    
 }
 
