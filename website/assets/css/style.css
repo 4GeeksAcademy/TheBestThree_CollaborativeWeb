@@ -10,6 +10,15 @@ body{
     width: 75%;
 }
 
+.imageFolio {
+    width: 400;
+    height: 400;
+}
+
+.contact {
+    width: 1000px;
+    margin: 0 auto;
+}
 .sectionServices{
     display: flex;
     align-items: center;
@@ -62,8 +71,7 @@ body{
     width: 100%;
     padding:5px;
     color: #313234;
-    height: fit-content;
-   
+    height: fit-content
 }
 
 .jumboTitle h1{
