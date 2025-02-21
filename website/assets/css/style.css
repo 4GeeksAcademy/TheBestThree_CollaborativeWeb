@@ -1,10 +1,56 @@
 body{
     background: black;
     margin:auto;
+    font-family: Roboto;
 
 }
 
 .container-fluid{
     background-color: white;
     width: 75%;
+    padding: 0px;
+}
+
+.jumbotron{
+    background-image: url("../img/bg.jpg");
+    background-position: 0px -200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 10px;
+}
+.jumboRow{
+    padding-top:90px;
+    padding-bottom:200px;
+}
+
+
+.jumboTitle {
+    text-align: center;
+    width: 100%;
+    padding:5px;
+   
+}
+
+.jumboTitle h1{
+    font-size: 9em;
+    line-height: 1em;
+    background-color: rgba(255, 255, 255, 0.747);
+}
+
+.jumboTitle h2{
+    font-size: 4em;
+    line-height: 1em;
+    background-color: rgba(255, 255, 255, 0.747);
+}
+
+.jumboSubtitle {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.747);
+    height: 75px;
+    width: 100%;
+}
+
+.navbar{
+    padding:10px;
 }
