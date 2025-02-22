@@ -13,12 +13,31 @@ body{
 .imageFolio {
     width: 400;
     height: 400;
+    object-fit: cover;
 }
+form {
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        padding-left: 80px;
+        }
+.form-label-1, .form-label-2 {
+       white-space: nowrap;
+       font-weight: bolder;
+       font-size: small;
+      text-align-last: right;
+        }   
+        .tAreaText{
+            padding: 0px;
+        }
 
-.contact {
-    width: 1000px;
-    margin: 0 auto;
-}
+.form-control::placeholder {
+    font-size: 12px;
+    opacity: 0.5;
+  }
+
+
+
 .sectionServices{
     display: flex;
     align-items: center;
